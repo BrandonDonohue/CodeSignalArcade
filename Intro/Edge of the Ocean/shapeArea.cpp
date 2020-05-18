@@ -6,7 +6,7 @@ int shapeArea(int n) {
 
     int topAndBottom = 0;
     int centerRow = n + (n - 1); 
-    for(int column = n - 1; column > 0; column--){ 
+    for(int column = n - 1; column > 0; column--) { 
         topAndBottom += (column + (column - 1));
     } 
 

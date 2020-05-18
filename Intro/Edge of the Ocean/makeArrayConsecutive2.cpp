@@ -9,6 +9,4 @@ int makeArrayConsecutive2(std::vector<int> statues) {
     int difference = max - min + 1;
 
     return difference - statues.size();
-    
-    
 }
